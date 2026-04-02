@@ -1,0 +1,83 @@
+:root {
+    --primary-deep: #231101;
+    --secondary-berry: #470024;
+    --accent-purple: #5B1865;
+    --accent-blue-alt: #5688C7;
+    --text-main: #333;
+}
+
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--text-main);
+    line-height: 1.6;
+    background-color: #fff;
+}
+
+header {
+    background-color: var(--primary-deep);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'King Of The World', serif;
+    margin: 0 0 1rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav a {
+    background-color: var(--secondary-berry);
+    color: white;
+    padding: 8px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+nav a.active {
+    background-color: var(--accent-blue-alt);
+}
+
+main {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 0 25px;
+}
+
+.people-content {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.person-entry {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+}
+
+.person-entry h2 {
+    font-family: 'King Of The World', serif;
+    color: var(--accent-purple);
+    margin-bottom: 5px;
+    font-size: 1.8rem;
+}
+
+.person-entry p {
+    font-style: italic;
+    color: #555;
+    margin-top: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: var(--primary-deep);
+    color: white;
+    margin-top: 60px;
+}
